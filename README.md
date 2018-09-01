@@ -1,2 +1,2 @@
 # pepe-jr-bot
-The library of this bot.
+This bot was coded in Discord.py
