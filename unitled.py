@@ -6,7 +6,6 @@ import time
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
-userID = messsage.author.id
 
 @client.event
 async def on_ready():
@@ -24,18 +23,5 @@ async def on_message(message):
         await client.send_message(message.channel, "I'm sorry to say this, but <@%s>, anime was a mistake." % (userID))
     if message.content.upper == "!LENNY": 
         await client.send_message(message.channel, "( ͡° ͜ʖ ͡°)" % (userID))
-    if message.content.upper == "!SCLAVE":
-        if message.author.id == "343644106569940994":
-            await client.send_message(message.channel, "YES, MY ONLY MASTER?")
-                if message.content.upper == "MAKE ME SOME COFFEE.":
-                    await client.send_message(message.channel, "SURE, MY MASTER. :cofee:")
-                        if message.content.upper == "THANK YOU" or message.content.upper = "THANKS":
-                            await client.send_message(message.channel, "NO PROBLEM, MASTER MIND SALMON.")
-        else:
-            await client.send_message(message.channel, "YOU'RE NOT MY MASTER, REEEEEEEEEEEEEEEEEEEEEEEEE")
                 
-        
-    
-
-
 client.run("NDg1MTQzNTU0ODMwNzYyMDAw.DmvA_g.M-_AhUIaqpd6Q1Zc5UWVP1EZ4xI")
