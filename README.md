@@ -1,2 +1,2 @@
-# pepe-jr-bot
-This bot was coded in Discord.py
+# THIS PROJECT IS DEAD.
+it is nigga
